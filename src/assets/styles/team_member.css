@@ -1,0 +1,7 @@
+#img_sub_bg{
+    
+    clip-path: path('M 0 0 L 200 0 Q 150 130, 180 50 L 0 250 Q 150 200, 0 250 Z');
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 30rem;
+    border-bottom-left-radius: 30rem;
+}
