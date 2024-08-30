@@ -6,8 +6,7 @@ import ShedaCourseActivities from '../components/ShedaCourseActivities'
 import FAQ from '../components/FAQ'
 import Conclusion from '../components/Conclusion'
 import TeamMember from '../components/TeamMember'
-import Project from '../components/project'
-
+import Project from "../components/Project"
 // Images
 import MemberPic from "../assets/images/3d-portrait-businessman 1.png"
 import greenPower from "../assets/images/WhatsApp Image 2024-01-29 at 22.18 1.png"

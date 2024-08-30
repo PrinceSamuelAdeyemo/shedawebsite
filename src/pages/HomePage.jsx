@@ -9,7 +9,7 @@ import FAQ from '../components/FAQ';
 import Review from '../components/Review';
 import Conclusion from '../components/Conclusion';
 import ShedaCourseActivities from '../components/ShedaCourseActivities';
-import Project from '../components/project';
+import Project from '../components/Project';
 
 // Styling
 import "../assets/styles/homepage.css"
