@@ -50,7 +50,7 @@ const Homepage = () => {
           <script src="landingpage.js"></script>
       </Helmet>
 
-      <div className='flex flex-col gap-10 justify-center items-center pb-10 bg-shedapagebg w-screen overflow-x-hidden pt-20 md:gap-14 lg:gap-20'>
+      <div className='flex flex-col gap-10 justify-center items-center pb-10 bg-shedapagebg w-screen overflow-x-hidden pt-20 lg:pt-10 xl:pt-20 md:gap-14 lg:gap-20'>
 
         <div id='intro-div' className='flex flex-col gap-6 justify-center items-center rounded-2xl h-[100vh] w-[90%] relative'>
           <div className='flex flex-col items-center gap-8 w-[95%] sm:w-[60%] md:w-[50%] lg:w-[90%]'>
