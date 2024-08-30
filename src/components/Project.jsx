@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 const Project = ({img, img_name}) => {
   const [tooltipOpen, setTooltipOpen] = useState(false)
 
+  // Tooltip function not in use atm.
   var customTooltip = (event) => {
     setTooltipOpen(true)
   }
