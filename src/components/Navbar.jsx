@@ -42,7 +42,6 @@ const Navbar = () => {
         <div className='flex w-[95%] lg:w-[90%] justify-between items-center '>
           <div className='items-center flex' onClick={goToHome}>
             <img src={logo} alt="logo" />
-            <a className='navbar-logo-tag flex text-shedared font-semibold'><img className='navbar-logo' src="" alt="" />ACADEMY</a>
           </div> 
           <div className='hidden lg:flex lg:justify-between items-center'>
             <ul className='lg:flex lg:gap-10'>

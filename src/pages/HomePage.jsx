@@ -50,17 +50,16 @@ const Homepage = () => {
           <script src="landingpage.js"></script>
       </Helmet>
 
-      <div className='flex flex-col gap-10 justify-center items-center pb-10 bg-shedapagebg w-screen overflow-x-hidden pt-20 lg:pt-10 xl:pt-20 md:gap-14 lg:gap-20'>
-
-        <div id='intro-div' className='flex flex-col gap-6 justify-center items-center rounded-2xl h-[100vh] w-[90%] relative'>
+      <div className='flex flex-col gap-10 justify-center items-center pb-10 bg-shedapagebg w-screen overflow-x-hidden pt-0 lg:pt-10 xl:pt-20 md:gap-14 lg:gap-20'>
+        <div id='intro-div' className='flex flex-col gap-6 justify-center items-center rounded-2xl h-[85vh] lg:h-[100vh] w-[90%] relative'>
           <div className='flex flex-col items-center gap-8 w-[95%] sm:w-[60%] md:w-[50%] lg:w-[90%]'>
-            <div className='flex gap-2 items-center justify-between px-2 outline-white border-2 border-shedagray rounded-2xl h-12 w-[85%] sm:w-[65%] lg:w-[30%] xl:w-[27%]'>
-              <p className='text-black bg-shedagray rounded-[0.5rem] w-24 text-center'>Trusted by</p>
-              <p className='text-shedared font-bold text-[70%] md:text-md'>400+ Students</p>
+            <div className='flex gap-0 lg:gap-2 items-center justify-between px-1 md:px-2 outline-white border-2 border-shedagray rounded-xl h-8 lg:h-12 w-[80%] sm:w-[65%] md:max-w-[70%] lg:max-w-[60%] xl:w-[27%]'>
+              <p className='text-gray-700 bg-gray-300 rounded-md text-[70%] w-[30%] md:text-[70%] lg:text-lg lg:w-24 text-center font-bold'>Trusted by</p>
+              <p className='text-shedared font-bold text-[90%] md:text-md lg:text-2xl text-center'>400+ Students</p>
               <div className='flex items-center z-10 relative w-[20%] md:w-[25%] lg:w-[20%] h-full'>
-                <img className='absolute h-2/3' src={img1} alt="" />
-                <img className='absolute h-2/3 left-3 md:left-4' src={img1} alt="" />
-                <img className='absolute h-2/3 left-6 md:left-8' src={img1} alt="" />
+                <img className='absolute h-5 lg:h-2/3' src={img1} alt="" />
+                <img className='absolute h-5 lg:h-2/3 left-3 md:left-3 lg:left-4' src={img1} alt="" />
+                <img className='absolute h-5 lg:h-2/3 left-6 md:left-6 lg:left-8' src={img1} alt="" />
               </div>
             </div>
             <div className='text-center flex flex-col gap-4 md:w-[50vw] md:gap-8 xl:w-[40vw] z-10'>
