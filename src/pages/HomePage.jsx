@@ -51,19 +51,19 @@ const Homepage = () => {
       </Helmet>
 
       <div className='flex flex-col gap-10 justify-center items-center pb-10 bg-shedapagebg w-screen overflow-x-hidden pt-0 lg:pt-10 xl:pt-20 md:gap-14 lg:gap-20'>
-        <div id='intro-div' className='flex flex-col gap-6 justify-center items-center rounded-2xl h-[85vh] lg:h-[100vh] w-[90%] relative'>
-          <div className='flex flex-col items-center gap-8 w-[95%] sm:w-[60%] md:w-[50%] lg:w-[90%]'>
-            <div className='flex gap-0 lg:gap-2 items-center justify-between px-1 md:px-2 outline-white border-2 border-shedagray rounded-xl h-8 lg:h-12 w-[80%] sm:w-[65%] md:max-w-[70%] lg:max-w-[60%] xl:w-[27%]'>
-              <p className='text-gray-700 bg-gray-300 rounded-md text-[70%] w-[30%] md:text-[70%] lg:text-lg lg:w-24 text-center font-bold'>Trusted by</p>
-              <p className='text-shedared font-bold text-[90%] md:text-md lg:text-2xl text-center'>400+ Students</p>
+        <div id='intro-div' className='flex flex-col gap-6 justify-center items-center rounded-2xl h-[85vh] lg:h-[100vh] w-[90%] '>
+          <div className='flex flex-col items-center gap-8 lg:gap-4 w-[95%] sm:w-[60%] md:w-[50%] lg:w-[90%]'>
+            <div className='flex gap-0 lg:gap-2 items-center justify-between px-1 md:px-2 outline-white border-2 border-shedagray rounded-xl h-8 xl:h-12 w-[80%] sm:w-[65%] md:max-w-[70%] lg:max-w-[35%] xl:w-[27%]'>
+              <p className='text-gray-700 bg-gray-300 rounded-md text-[70%] w-[30%] md:text-[70%] xl:text-lg lg:w-24 text-center font-bold'>Trusted by</p>
+              <p className='text-shedared font-bold text-[90%] md:text-sm text-center'>400+ Students</p>
               <div className='flex items-center z-10 relative w-[20%] md:w-[25%] lg:w-[20%] h-full'>
                 <img className='absolute h-5 lg:h-2/3' src={img1} alt="" />
                 <img className='absolute h-5 lg:h-2/3 left-3 md:left-3 lg:left-4' src={img1} alt="" />
                 <img className='absolute h-5 lg:h-2/3 left-6 md:left-6 lg:left-8' src={img1} alt="" />
               </div>
             </div>
-            <div className='text-center flex flex-col gap-4 md:w-[50vw] md:gap-8 xl:w-[40vw] z-10'>
-              <h1 className=' font-bold text-4xl lg:text-6xl'>The Best Creative Community in Ibadan</h1>
+            <div className='text-center flex flex-col gap-4 lg:gap-2 md:w-[50vw] md:gap-8 xl:w-[40vw] z-10'>
+              <h1 className=' font-bold text-4xl lg:text-5xl'>The Best Creative Community in Ibadan</h1>
               <p className='font-bold text-shedagray'>Sheda House Is a Creative Hub Located At The Heart Of Ibadan. We Are A Team of Creatives. Join Sheda House to interact, play, learn, create and discover.</p>
             </div>
             <div className='flex flex-col justify-center items-center gap-2 w-[90%] lg:flex-row md:w-[100%] lg:w-[65%] xl:w-[40%]'>
@@ -79,14 +79,16 @@ const Homepage = () => {
         <div id='howitworks' className='flex flex-col items-center gap-4 w-[90%]'>
           <p className='text-center text-sm font-semibold'>Products we've worked on</p>
           <p className='text-center text-4xl mb-4 font-bold'>Our works</p>
-          <div className='flex flex-wrap justify-center gap-10 lg:gap-24 lg:h-20'>
+          <div className='flex flex-wrap justify-center lg:w-[80%]'>
+            <div className='flex justify-between w-full'>
+              <Project img={greenPower} img_name={"Green Power"} />
+              <Project img={reniFinance} img_name={"Reni Finance"} />
+              <Project img={reniMail} img_name={"Reni Mail"} />
+              <Project img={reniTrust} img_name={"Reni Trust"} />
+              <Project img={reniStore} img_name={"Reni Store"} />
+              <Project img={SAAF} img_name={"SAAF"} />
+            </div>
             
-            <Project img={greenPower} img_name={"Green Power"} />
-            <Project img={reniFinance} img_name={"Reni Finance"} />
-            <Project img={reniMail} img_name={"Reni Mail"} />
-            <Project img={reniTrust} img_name={"Reni Trust"} />
-            <Project img={reniStore} img_name={"Reni Store"} />
-            <Project img={SAAF} img_name={"SAAF"} />
             
           </div>
         </div>

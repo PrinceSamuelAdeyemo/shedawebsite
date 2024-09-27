@@ -38,7 +38,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex flex-row align-middle w-screen justify-center h-14 bg-shedapagebg relative sm:h-20'>
+    <nav className='flex flex-row align-middle w-screen justify-center bg-shedapagebg relative sm:h-20 lg:h-14'>
         <div className='flex w-[95%] lg:w-[90%] justify-between items-center '>
           <div className='items-center flex' onClick={goToHome}>
             <img src={logo} alt="logo" />
@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
           <div className='hidden lg:flex'>
             <ul className='lg:flex lg:justify-between lg:gap-10 items-center'>
-            <li className='border-2 rounded-xl border-shedared bg-shedared text-white font-semibold h-14 min-w-[10rem] flex items-center justify-center'><a href="/assessmentform">Join Academy</a></li>
+              <li className='border-2 rounded-lg border-shedared bg-shedared text-white font-semibold px-2 py-1 flex items-center justify-center'><a href="/assessmentform">Join Academy</a></li>
             </ul>
           </div>
           <div className='lg:hidden z-20' onClick={nav_function}>
