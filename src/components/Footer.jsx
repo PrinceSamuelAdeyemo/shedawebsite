@@ -46,7 +46,6 @@ const Footer = () => {
       <div className='flex flex-col w-[90%]'>
         <p className='text-center'>&copy; 2024 Shedahouse.com || All rights reserved</p>
         <div className='w-full bg-gray-500 h-[1px]'></div>
-        <p className='text-center'>A product of FireSwitch Technologies Ltd</p>
       </div>
         
     </footer>
